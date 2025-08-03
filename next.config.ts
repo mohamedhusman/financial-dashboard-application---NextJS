@@ -1,7 +1,10 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // !this is only will work in canary version of next.js
+  // experimental: {
+  //   ppr: "incremental",
+  // },
 };
 
 export default nextConfig;
